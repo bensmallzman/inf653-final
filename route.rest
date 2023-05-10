@@ -1,0 +1,23 @@
+# get all
+GET http://localhost:8081/api/getAll
+
+###
+
+# get one
+GET http://localhost:8081/api/getOne/645b90d50bdfdb681e4c8503
+
+###
+
+# post
+POST http://localhost:8081/api/POST
+# Content-Type: application/json
+
+# {
+#     "stateCode": "s",
+#     "funfacts": "none"
+# }
+
+###
+
+# delete one
+DELETE http://localhost:8081/api/delete/645b996fe21462d90d6778f5
